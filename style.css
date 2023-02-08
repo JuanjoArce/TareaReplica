@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navBar{
+    background-color: black;
+}
+.navbar-expand-sm .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+ }
+
