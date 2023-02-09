@@ -57,7 +57,10 @@ main {
     opacity: .6;
     padding-left: 20px;
     padding-right: 20px;
-    width: auto;
+    width: 435px;
+    position: relative;
+    bottom: 375px;
+    left: 840px;
 }
 
 .ingresarCf {
