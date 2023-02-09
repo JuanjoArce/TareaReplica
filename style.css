@@ -11,4 +11,121 @@
     flex-basis: auto;
     justify-content: flex-end;
  }
+ #accesosContribuyentes{
+    background-color: black;
+    display: table;
+
+ }
+ .drop-menu.show{
+    width: 100%;
+    background-color: black;
+}
+
+.nav-item.dropdown,.nav-item.dropend,.nav-item.dropstart,.nav-item.dropup {
+    position: static!important;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+    right: 0;
+    background-color: black;
+}
+.dropdown-menu a, ul, li{
+    text-decoration: none;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoCandado {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.fondoCaja {
+    background-color: #333; 
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    opacity: .6;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+}
+
+.ingresarCf {
+    color: white;
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 20px;    
+    margin-bottom: 10px;
+    width: auto; 
+}
+
+.ingresarCf > h2 {
+    font-family: "Encode Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+.iniciarSesion {
+    background-color: #139ED9; 
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    padding-top: 5px;
+    padding-right: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+.iniciarSesion:hover {
+    background-color: #2596be;
+    cursor: pointer;
+}
+
+.recuperarClave {
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 15px;
+    text-align: center;
+    width: 380px;
+}
+
+.recuperarClave:hover {
+    color: #139ED9;
+    cursor: pointer;
+}
+
+.constaciaCuit , .comenzarInscripción {
+    border: 1px solid #139ED9;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+    width: 380px; 
+}
+
+.constaciaCuit:hover , .comenzarInscripción:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #139ED9;
+    cursor: pointer;
+}
+
+.comenzarInscripción { 
+    margin-top: 15px;
+}
 
