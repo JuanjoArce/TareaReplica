@@ -50,7 +50,7 @@ main {
     background-color: #333; 
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: 367px;
     justify-content: center;
     margin-top: 10px;
     margin-left: 20px;
@@ -60,7 +60,7 @@ main {
     width: 435px;
     position: relative;
     bottom: 375px;
-    left: 840px;
+    left: 890px;
 }
 
 .ingresarCf {
@@ -130,5 +130,306 @@ main {
 
 .comenzarInscripción { 
     margin-top: 15px;
+}
+#masConsultados {
+    border-top: none;
+}
+#masConsultados {
+    margin-left: 46px;
+    margin-right: 46px;
+    padding: 0px 15px;
+    width: 100%;
+    position: absolute;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top: 8px solid #139ed9;
+    font-family: "Encode Sans", sans-serif !important;
+}
+.titulodiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-style: bold;
+    font-size: 25px;
+
+    padding: 40px 10px;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+#fila1{
+    display: flex;
+    margin: 0px 15px;
+    padding: 10px 10px;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+
+    position:relative; 
+    top: 10rem;
+}
+.facturador{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+
+    position: absolute;
+    left:4rem;
+} 
+.presentaciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    position:absolute; 
+    left: 30rem;
+    z-index: 3;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    right:20rem;
+}
+#fila2{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+
+    position:relative; 
+    top: 23rem;
+}
+.micrositios{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    left:4rem;
+} 
+.vencimientos{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    left:30rem;
+}
+.guias{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    right: 20rem;
+}
+#fila3{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+
+    position:relative; 
+    top: 35rem;
+}
+.ceta{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    left:4rem;
+}
+.monotributo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    left:30rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100px;
+
+    position:absolute; 
+    right:20rem;
+}
+#textofacturador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 1rem;
+    left: 7rem;
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+#textopresentaciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 2rem;
+    left:6rem;
+
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+#textoabc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    right:-8rem;
+
+    font-size: 20px;
+    color:  #333333;
+    text-decoration: none;
+}
+#textomicro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: -4rem;
+    left:8rem;
+
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+#textovenc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: -4rem;
+    left:7rem;
+
+    font-size: 20px;
+    color:  #333333;
+    text-decoration: none;
+}
+#textoguias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: -4rem;
+    right:-8rem;
+
+    font-size: 20px;
+    color:  #333333;
+    text-decoration: none;
+}
+#textoceta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: -4rem;
+    left:8rem;
+    width: 100px;
+
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+#textomon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 1rem;
+    left:6em;
+
+    font-size: 20px;
+    color:  #333333;
+    text-decoration: none;
+}
+#textoform {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 1rem;
+    right: -8rem;
+
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+}
+
+#iconofacturador > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/facturador-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconopresentaciones > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/presentaciones-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconoabc > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/abc-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconomicro> a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/micrositios-hover.svg);
+    background-repeat: no-repeat;    
+}
+    #iconovenc > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/vencimientos-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconoguias> a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/guias-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconoceta > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/ceta-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconomon > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/monotributo-hover.svg);
+    background-repeat: no-repeat;
+}
+    #iconoform > a:hover {
+    background-image: url(https://www.afip.gob.ar/landing/img/mas-consultados-negro/formularios-hover.svg);
+    background-repeat: no-repeat;
+}
+a:hover {
+    color: #139ed9;
 }
 
